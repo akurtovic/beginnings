@@ -1,0 +1,9 @@
+
+.section {
+	max-height: 400px;
+	padding: 25px;
+	margin: 0px;
+}
+#cover {
+	background-color: #fff123;
+}
