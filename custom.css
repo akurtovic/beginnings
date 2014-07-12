@@ -59,7 +59,6 @@ a:hover, a:focus {
 	max-height: 1200px;
 	padding: 25px;
 	margin: 0px;
-	margin-bottom: 100px;
 }
 
 #Dune {
@@ -90,5 +89,46 @@ a:hover, a:focus {
 
 .duneFirstLetter { float: left; color: #FFF; font-size: 80px; line-height: 60px; padding-top: 8px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
 
+
+.neuromancerSection {
+	max-height: 1200px;
+	margin: 0px;
+}
+
+#Neuromancer {
+	background-color: #FFFFFF;
+}
+
+.neuromancerTitle {
+	margin-top: 0px;
+	padding-top: 300px;
+	padding-bottom: 100px;
+	font-family: 'Lato', sans-serif;
+	line-height: 60px;
+	letter-spacing: 14px;
+	font-size: 80px;
+	color: #000000;
+	text-align: center;
+	text-shadow: 1px 1px #300;
+	text-transform: uppercase;
+
+}
+
+.neuromancerText {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	max-width: 800px;
+	line-height: 46px;
+	color: #000000;
+	font-size: 46px;
+	float: center;
+}
+
+.neuromancerQuoteOpen { float: left; color: #000; font-size: 200px; line-height: 150px; padding-top: 10px; padding-right: 5px; padding-left: 100px; font-family: serif; }
+.neuromancerQuoteClose { float: right; color: #000; font-size: 200px; line-height: 150px; padding-top: 250px; padding-right: 100px; padding-left: 5px; font-family: serif; }
+@media (max-width: 990px) {
+  .neuromancerQuoteClose {
+    padding-top: 10px;
+  }
 
 
