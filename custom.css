@@ -1,9 +1,53 @@
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+
 
 .section {
-	max-height: 400px;
+	max-height: 500px;
 	padding: 25px;
 	margin: 0px;
 }
+.link {
+	line-height: 5px;
+}
+
+.sources {
+	margin-top: 30px;
+	font-size: 12px;
+}
+
 #cover {
-	background-color: #fff123;
+	background-color: #fff100;
+	text-align: left;
+}
+#coverTitle {
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 10px;
+	letter-spacing: 16px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#coverSlug {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+#coverText {
+	font-family: 'Droid Serif', serif;
+	max-width: 500px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color: black;
 }
