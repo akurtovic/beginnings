@@ -32,22 +32,63 @@ a:hover, a:focus {
 	margin-top: 0px;
 	padding-top: 0px;
 	padding-bottom: 30px;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 10px;
-	letter-spacing: 16px;
-	font-size: 40px;
-	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+	line-height: 40px;
+	letter-spacing: 14px;
+	font-size: 76px;
 }
 
 #coverSlug {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 }
 
-#coverText {
+.coverText {
 	font-family: 'Droid Serif', serif;
 	max-width: 500px;
 	line-height: 25px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	color: black;
 }
+
+.coverFirstLetter { float: left; color: #CC0000; font-size: 80px; line-height: 60px; padding-top: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Droid Serif', serif; }
+
+
+
+.duneSection {
+	max-height: 1200px;
+	padding: 25px;
+	margin: 0px;
+	margin-bottom: 100px;
+}
+
+#Dune {
+	background-color: #003366;
+}
+
+#duneTitle {
+	margin-top: 0px;
+	padding-top: 300px;
+	padding-bottom: 100px;
+	font-family:'Ubuntu', sans-serif;
+	line-height: 60px;
+	letter-spacing: 14px;
+	font-size: 200px;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 4px 4px #000;
+
+}
+
+.duneText {
+	font-family: 'Roboto Slab', serif;
+	max-width: 500px;
+	line-height: 24px;
+	color: #F8F8F8;
+	font-size: 16px;
+}
+
+.duneFirstLetter { float: left; color: #FFF; font-size: 80px; line-height: 60px; padding-top: 8px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
+
+
+
