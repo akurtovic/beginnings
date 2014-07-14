@@ -9,7 +9,6 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
-
 .section {
 	max-height: 500px;
 	padding: 25px;
@@ -24,6 +23,7 @@ a:hover, a:focus {
 	font-size: 12px;
 }
 
+/* COVER */
 #cover {
 	background-color: #fff100;
 	text-align: left;
@@ -37,12 +37,10 @@ a:hover, a:focus {
 	letter-spacing: 14px;
 	font-size: 76px;
 }
-
 #coverSlug {
 	font-family: 'Playfair Display', serif;
 	font-size: 20px;
 }
-
 .coverText {
 	font-family: 'Droid Serif', serif;
 	max-width: 500px;
@@ -50,21 +48,17 @@ a:hover, a:focus {
 	letter-spacing: 1px;
 	color: black;
 }
-
 .coverFirstLetter { float: left; color: #000000; font-size: 80px; line-height: 60px; padding-top: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Droid Serif', serif; }
 
-
-
+/* DUNE */
 .duneSection {
 	max-height: 1200px;
 	padding: 25px;
 	margin: 0px;
 }
-
 #Dune {
-	background-color: #003366;
+	background-color: #0F2B46;
 }
-
 #duneTitle {
 	margin-top: 0px;
 	padding-top: 300px;
@@ -78,7 +72,6 @@ a:hover, a:focus {
 	text-shadow: 4px 4px #000;
 
 }
-
 .duneText {
 	font-family: 'Roboto Slab', serif;
 	max-width: 500px;
@@ -86,34 +79,29 @@ a:hover, a:focus {
 	color: #F8F8F8;
 	font-size: 16px;
 }
-
 .duneFirstLetter { float: left; color: #FFF; font-size: 80px; line-height: 60px; padding-top: 8px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
 
-
+/* NEUROMANCER */
 .neuromancerSection {
 	max-height: 1200px;
 	margin: 0px;
 }
-
 #Neuromancer {
 	background-color: #FFFFFF;
 }
-
 .neuromancerTitle {
 	margin-top: 0px;
 	padding-top: 300px;
 	padding-bottom: 100px;
 	font-family: 'Lato', sans-serif;
 	line-height: 60px;
-	letter-spacing: 14px;
+	letter-spacing: 5px;
 	font-size: 80px;
 	color: #000000;
 	text-align: center;
-	text-shadow: 1px 1px #300;
 	text-transform: uppercase;
 
 }
-
 .neuromancerText {
 	font-family: 'Vollkorn', serif;
 	text-align: center;
@@ -123,7 +111,6 @@ a:hover, a:focus {
 	font-size: 46px;
 	float: center;
 }
-
 .neuromancerQuoteOpen { float: left; color: #000; font-size: 200px; line-height: 150px; padding-top: 10px; padding-right: 5px; padding-left: 100px; font-family: serif; }
 .neuromancerQuoteClose { float: right; color: #000; font-size: 200px; line-height: 150px; padding-top: 250px; padding-right: 100px; padding-left: 5px; font-family: serif; }
 @media (max-width: 990px) {
@@ -132,16 +119,15 @@ a:hover, a:focus {
   }
  }
 
+ /* MOBY */
 .mobySection {
 	max-height: 1200px;
 	margin: 0px;
 	padding-bottom: 50px;
 }
-
 #Moby {
 	background-image: url(img/paper_2.png);
 }
-
 .mobyTitle {
 	margin-top: 0px;
 	padding-top: 50px;
@@ -153,7 +139,6 @@ a:hover, a:focus {
 	color: #000000;
 	text-align: center;
 }
-
 .mobyText {
 	font-family: 'EB Garamond', serif;
 	text-align: left;
@@ -163,7 +148,6 @@ a:hover, a:focus {
 	font-size: 28px;
 	float: center;
 }
-
 .mobyTextChapter {
 	font-family: 'EB Garamond', serif;
 	text-align: left;
@@ -175,3 +159,38 @@ a:hover, a:focus {
 	font-weight: 800;
 }
 
+/* MOCKINGBIRD */
+.mockingbirdSection {
+	max-height: 1200px;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+#Mockingbird {
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 465, color-stop(0, #FFE17D), color-stop(1, #EF8E0E));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #FFE17D 0%, #EF8E0E 100%);
+}
+
+.mockingbirdTitle {
+	padding-top: 200px;
+	padding-bottom: 50px;
+	font-family: 'Clicker Script', cursive;
+	line-height: 60px;
+	font-size: 90px;
+	color: #000000;
+	text-align: center;
+}
+.mockingbirdText {
+	font-family: 'Lustria', serif;
+	text-align: left;
+	min-width: 200px;
+	line-height: 30px;
+	color: #000000;
+	font-size: 18px;
+	float: center;
+}
+.mockingbirdDropcap { float: left; color: #000; font-size: 80px; line-height: 60px; padding-bottom: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
+.mockingbirdDropcap { float: left; color: #000; font-size: 80px; line-height: 60px; padding-bottom: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
