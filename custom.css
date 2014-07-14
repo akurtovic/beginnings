@@ -51,7 +51,7 @@ a:hover, a:focus {
 	color: black;
 }
 
-.coverFirstLetter { float: left; color: #CC0000; font-size: 80px; line-height: 60px; padding-top: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Droid Serif', serif; }
+.coverFirstLetter { float: left; color: #000000; font-size: 80px; line-height: 60px; padding-top: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Droid Serif', serif; }
 
 
 
@@ -130,5 +130,48 @@ a:hover, a:focus {
   .neuromancerQuoteClose {
     padding-top: 10px;
   }
+ }
 
+.mobySection {
+	max-height: 1200px;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+
+#Moby {
+	background-image: url(img/paper_2.png);
+}
+
+.mobyTitle {
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Old Standard TT', serif;
+	line-height: 60px;
+	letter-spacing: 14px;
+	font-size: 90px;
+	color: #000000;
+	text-align: center;
+}
+
+.mobyText {
+	font-family: 'EB Garamond', serif;
+	text-align: left;
+	min-width: 400px;
+	line-height: 46px;
+	color: #000000;
+	font-size: 28px;
+	float: center;
+}
+
+.mobyTextChapter {
+	font-family: 'EB Garamond', serif;
+	text-align: left;
+	min-width: 400px;
+	line-height: 46px;
+	color: #000000;
+	font-size: 32px;
+	float: center;
+	font-weight: 800;
+}
 
