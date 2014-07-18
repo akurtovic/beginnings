@@ -1,3 +1,8 @@
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 a:link {
 	text-decoration: none;
 	color: inherit;
@@ -25,20 +30,32 @@ a:hover, a:focus {
 
 /* COVER */
 #cover {
-	background-color: #fff100;
+	padding: 200px;
+	background-color: #EB7260;
 	text-align: left;
+	max-height: 1000px;
 }
+@media (max-width: 800px) {
+  #cover {
+    padding: 50px;
+  }
+ }
+
 #coverTitle {
-	margin-top: 0px;
-	padding-top: 0px;
 	padding-bottom: 30px;
 	font-family: 'Playfair Display', serif;
 	line-height: 40px;
 	letter-spacing: 14px;
 	font-size: 76px;
 }
+@media (max-width: 560px) {
+  #coverTitle {
+    font-size: 40px;
+  }
+ }
 #coverSlug {
 	font-family: 'Playfair Display', serif;
+	padding-bottom: 10px;
 	font-size: 20px;
 }
 .coverText {
@@ -46,7 +63,7 @@ a:hover, a:focus {
 	max-width: 500px;
 	line-height: 25px;
 	letter-spacing: 1px;
-	color: black;
+	color: #000000;
 }
 .coverFirstLetter { float: left; color: #000000; font-size: 80px; line-height: 60px; padding-top: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Droid Serif', serif; }
 
@@ -57,7 +74,7 @@ a:hover, a:focus {
 	margin: 0px;
 }
 #Dune {
-	background-color: #0F2B46;
+	background-color: #354458;
 }
 #duneTitle {
 	margin-top: 0px;
@@ -133,7 +150,7 @@ a:hover, a:focus {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-family: 'Old Standard TT', serif;
-	line-height: 60px;
+	line-height: 90px;
 	letter-spacing: 14px;
 	font-size: 90px;
 	color: #000000;
@@ -166,19 +183,19 @@ a:hover, a:focus {
 	padding-bottom: 50px;
 }
 #Mockingbird {
-	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
-	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
-	background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
-	background-image: -webkit-gradient(radial, center center, 0, center center, 465, color-stop(0, #FFE17D), color-stop(1, #EF8E0E));
-	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 100%);
-	background-image: radial-gradient(ellipse farthest-corner at center, #FFE17D 0%, #EF8E0E 100%);
+	background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 300%);
+	background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 300%);
+	background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 300%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 471, color-stop(0, #FFE17D), color-stop(3, #EF8E0E));
+	background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFE17D 0%, #EF8E0E 300%);
+	background-image: radial-gradient(ellipse farthest-corner at center, #FFE17D 0%, #EF8E0E 300%);
 }
 
 .mockingbirdTitle {
 	padding-top: 200px;
 	padding-bottom: 50px;
 	font-family: 'Clicker Script', cursive;
-	line-height: 60px;
+	line-height: 90px;
 	font-size: 90px;
 	color: #000000;
 	text-align: center;
@@ -194,3 +211,54 @@ a:hover, a:focus {
 }
 .mockingbirdDropcap { float: left; color: #000; font-size: 80px; line-height: 60px; padding-bottom: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
 .mockingbirdDropcap { float: left; color: #000; font-size: 80px; line-height: 60px; padding-bottom: 4px; padding-right: 4px; padding-left: 3px; font-family: 'Roboto Slab', serif; }
+
+ /* Alice */
+.aliceSection {
+	padding: 150px;
+	max-height: 1200px;
+	min-height: 500px;
+	margin: 0px;
+	padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+  .aliceSection {
+    padding: 50px;
+  }
+  .aliceTitle {
+  	text-align: left;
+  }
+  .aliceText {
+  	text-align: left;
+  }
+ }
+#Alice {
+	background-color: #29ABA4;
+}
+.aliceTitle {
+	margin-top: 0px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 45px;
+	font-size: 45px;
+	color: #000000;
+	text-align: center;
+}
+.aliceText {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	max-width: 400px;
+	line-height: 22px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+}
+.aliceTextChapter {
+	font-family: 'EB Garamond', serif;
+	text-align: left;
+	min-width: 400px;
+	line-height: 46px;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+	font-weight: 800;
+}
